@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <H1 style="text-align:center;background-color:aqua">TIME TABLE</H1>
+    <title>Timetable</title>
+    <style>
+        table,tr,th,td{
+            border: 2px solid orange;
+            border-collapse: collapse;
+            height: 80px;
+            width: 800px;
+            text-align: center;
+        }
+</style>
+</head>
+    <table>
+        <tr>
+            <th>Day/Hour</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td colspan="2">Placement</td>
+            <td>Tamil</td>
+            <td>Web analytics</td>
+            <td>Time series</td>
+            <td>English</td>
+        </tr>
+        <tr><td>II</td>
+            <td>Elective</td>
+            <td>English</td>
+            <td>Tamil</td>
+            <td>Time series</td>
+            <td>Spread sheet</td>
+            <td>Web analytics</td>
+        </tr>
+        <tr><td>III</td>
+            <td colspan="3">DAS lab</td>
+            <td>Time series</td>
+            <td>English</td>
+            <td>Tamil</td>
+        </tr>
+        <tr><td>IV</td>
+            <td>Spread sheet</td>
+            <td>HR</td>
+            <td>Web analytics</td>
+            <td>Time series</td>
+            <td>Elective</td>
+            <td>Spread sheet</td>
+        </tr>
+        <tr><td>V</td>
+            <td>Spread sheet</td>
+            <td>Web analytics</td>
+            <td>Elective</td>
+            <td>Web analytics</td>
+            <td colspan="2">DAS lab</td>
+        </tr>
+        <tr><td>VI</td>
+            <td>Time series</td>
+            <td>Spread sheet</td>
+            <td>Elective</td>
+            <td>English</td>
+            <td>Tamil</td>
+            <td>Web analytics</td>
+        </tr>
+    </table>
+</html>
